@@ -6,7 +6,7 @@
 
 	"action": {
 		"default_popup": "index.html",
-		"default_icon": "collections_bookmark_FILL1_wght400_GRAD0_opsz24.svg"
+		"default_icon": "bookmark.png"
 	},
 
 	"permissions": ["bookmarks"],
