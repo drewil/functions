@@ -6,7 +6,7 @@
 
 	"action": {
 		"default_popup": "index.html",
-		"default_icon": "bookmark.png"
+		"default_icon": "Google Bookmark logo1.png"
 	},
 
 	"permissions": ["bookmarks"],
