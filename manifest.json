@@ -1,7 +1,14 @@
 {
 	"manifest_version": 3,
 	"name": "Bookmark Extension",
+	"description": "Never forget or lose out on your bookmarks again.",
 	"version": "1.0",
+
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "collections_bookmark_FILL1_wght400_GRAD0_opsz24.svg"
+	},
+
 	"permissions": ["bookmarks"],
 	"background": {"service_worker": "background.js"}
 }
