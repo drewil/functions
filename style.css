@@ -1,7 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-	background: rgb(255, 255, 255);
+/* body {
+	top: 20px;
+	right: 20px;
+
+	background: rgb(255, 255, 255, 1);
 	margin-top: 1em;
+	margin-right: 1em;
 	padding: 1em;
+	border-radius: 1em;
+}
+
+ */
+
+#notification {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+}
+
+#notification img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.notification-content {
+	flex: 1;
+}
+
+#cancel-button {
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	cursor: pointer;
+
+	display: none; /* Initially hidden */
+}
+
+#notification:hover #cancel-button {
+	display: block;
+}
+
+h1 {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 24px;
+	color: rgb(0, 0, 0, 1);
+}
+
+p {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 16px;
+	color: rgb(0, 0, 0);
 }
