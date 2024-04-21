@@ -2,8 +2,8 @@
 	"manifest_version": 3,
 	"name": "bookmarks",
 	"version": "1.0",
-	"description": "Never forget or lose a bookmark again!",
-	"omnibox": { "keyword" : "aaron" },
+	"description": "Never forget or lose a bookmark again! This is a grad project.",
+	"omnibox": { "keyword" : "bm" },
 	"permissions": [
 		"scripting",
 		"activeTab",
@@ -22,6 +22,8 @@
 	},
 	"background": {
 		"service_worker": "scripts/service-worker.js"
+		"persistent": false,
+    "scripts": ["scripts/background.js"]
 	},
 	"action": {
 		"default_popup": "popup/popup.html"
