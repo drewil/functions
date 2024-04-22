@@ -10,21 +10,25 @@
 		<title>Bookmark Searcher</title>
 
 		<!-- Stylesheets -->
+		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="popup/popup.css">
 	</head>
 
 	<body>
 
-		<div class="popup-container">
-		
+	<div class="popup-container">
+		<div class="search-wrapper">
 			<input type="text" id="searchInput" placeholder="Search bookmarks...">
-
-			<ul id="resultsList"></ul>
-
+			<img src="images/search_FILL0_wght300_GRAD0_opsz24.svg" alt="Search Icon" class="search-icon">
 		</div>
+		<div id="folderNamesContainer"></div>
+		<ul id="resultsList"></ul>
+		<footer>© 2024 Bookmark Searcher</footer>
+	</div>
 
 		<!-- Scripts -->
 		<script src="scripts/popup.js"></script>
 
 	</body>
+
 </html>
