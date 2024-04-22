@@ -6,15 +6,12 @@ body {
 
 .popup-container {
 	width: 320px;
-
 	padding: 6px;
-
 	background-color: rgb(32, 33, 35);
 }
 
 #searchInput {
 	width: 296px;
-
 	padding: 12px;
 	border: none;
 	border-radius: 20px;
@@ -27,6 +24,7 @@ body {
 
 #results {
 	list-style-type: none;
+
 	padding: 0;
 }
 
