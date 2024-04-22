@@ -2,56 +2,56 @@
 
 body {
 	background-color: rgb(32, 33, 36);
-	font-family: 'Roboto', sans-serif;
 }
 
 .popup-container {
 	width: 320px;
-	padding: 12px;
+
+	padding: 6px;
+
 	background-color: rgb(32, 33, 35);
 }
 
 #searchInput {
-	width: calc(100% - 24px);
+	width: 296px;
+
 	padding: 12px;
 	border: none;
 	border-radius: 20px;
+
 	font-size: 16px;
 	background-color: rgb(32, 33, 35);
 	border: 1px solid rgb(60, 64, 67);
 	color: rgb(227, 227, 227);
-	margin-bottom: 12px;
 }
 
-#folderNamesContainer {
-	margin-bottom: 12px;
-}
-
-#resultsList {
+#results {
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
 }
 
-#resultsList li {
+#results li {
 	margin-top: 2px;
+
 	padding: 12px;
 	border-radius: 4px;
 	transition: background-color 0.3s ease;
-	color: rgb(227, 227, 227);
+
+	font-family: Roboto;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
-	cursor: pointer;
+	color: rgb(227, 227, 227);
 }
 
-#resultsList li:hover {
+#results li:hover {
 	background-color: rgb(42, 59, 81);
 }
 
 footer {
 	margin-top: 12px;
+
 	font-size: 12px;
+	line-height: 16px;
 	color: rgb(227, 227, 227);
-	text-align: center;
 }
