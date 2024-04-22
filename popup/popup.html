@@ -3,39 +3,28 @@
 
 	<head>
 		<!-- Resets -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<!-- Stylesheets -->
-		<link href="popup/popup.css" rel="stylesheet">
-		<script src="popup/popup.js"></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Title -->
-		<title>Google Bookmark</title>
+		<title>Bookmark Searcher</title>
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="popup/popup.css">
 	</head>
 
 	<body>
 
-		<div id="notification">
+		<div class="popup-container">
+		
+			<input type="text" id="searchInput" placeholder="Search bookmarks...">
 
-			<header>
-				<button id="cancel"><img src="images/close_FILL0_wght300_GRAD0_opsz20.svg" alt="cancel button"></button>
-				<div class="information">
-					<h1>Google Bookmark</h1>
-					<p>About</p>
-				</div>
-			</header>
+			<ul id="results"></ul>
 
-			<main>
-				<div class="icon"><img src="images/design_services_FILL0_wght300_GRAD0_opsz48.svg" alt="bookmark icon"></div>
-				<div class="content">
-					<h2>Bookmark</h2>
-					<h3>/Folder</h3>
-				</div>
-			</main>
-
-			<button id="shuffle"><img src="images/cached_FILL0_wght300_GRAD0_opsz20.svg" alt="shuffle button"></button>
 		</div>
+
+		<!-- Scripts -->
+		<script src="scripts/popup.js"></script>
 
 	</body>
 </html>

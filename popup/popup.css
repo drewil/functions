@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-#notification {
+/* #notification {
 	position: fixed;
 	top: 10px;
 	right: 10px;
@@ -75,8 +75,7 @@ button:hover {
 }
 
 #cancel {
-	display: none; /* Initially hidden */
-}
+	display: none; /* Initially hidden 
 
 #notification:hover #cancel {
 	display: flex;
@@ -118,4 +117,47 @@ h3 {
 	font-weight: 300;
 	font-size: 18px;
 	color: rgb(0, 0, 0);
+} */
+
+body {
+	background-color: rgb(32, 33, 36);
+}
+
+.popup-container {
+	width: 320px;
+	padding: 6px;
+	background-color: rgb(32, 33, 35);
+}
+
+#searchInput {
+	width: 296px;
+	padding: 12px;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	background-color: rgb(32, 33, 35);
+	border: 1px solid rgb(60, 64, 67);
+	color: rgb(227, 227, 227);
+}
+
+#resultsList {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Results list items */
+#resultsList li {
+	margin-top: 2px;
+	padding: 12px;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+	color: rgb(227, 227, 227);
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+#resultsList li:hover {
+	background-color: rgb(60, 64, 67);
 }
